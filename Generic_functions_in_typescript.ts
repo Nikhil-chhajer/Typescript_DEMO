@@ -40,4 +40,4 @@ function linearsearch<T,R>(array:T[],x:T,y:R):[number,T]{
 
 }
 const array:number[]=[1,2,3,4,5];
- console.log(linearsearch(array,5,"hii"));
+ console.log(linearsearch<number,string>(array,5,"hii"));
