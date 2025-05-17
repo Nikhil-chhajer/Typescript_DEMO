@@ -38,3 +38,15 @@ stringll.addathead("Bye");
 stringll.display();
 
 
+interface customterface<T1,T2>{
+    property:T1;
+    moreproperty:T2;
+}
+let custom:custominterface<number,string>={
+    property:10
+    moreproperty:"nikhil"
+}
+console.liog(custom)
+
+
+
